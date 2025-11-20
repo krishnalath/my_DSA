@@ -50,7 +50,7 @@ int main() {
     temp->next=endptr;
     
     //INSERT AT CUSTOM
-    int pos=30;
+    int pos=3;
     struct Node *custptr = (struct Node*) malloc(sizeof(struct Node));
     custptr->data = 50;
     custptr->next = NULL;
